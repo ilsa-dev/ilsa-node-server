@@ -1,0 +1,30 @@
+{
+  "name": "ilsa-node-server",
+  "version": "0.0.1",
+  "description": "The ILSA project node server.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "mysql": "github:mysqljs/mysql",
+    "node-rest-client": "^3.1.0",
+    "uuid": "^3.2.1"
+  }
+}

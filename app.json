@@ -1,0 +1,28 @@
+{
+  "apps" : [
+    {
+      "name"  :   "stl-production",
+      "script"    :   "app.js",
+      "watch"       : true,
+      "exec_mode" :   "fork",
+      "instances" :   1,
+      "max_memory_restart"    :   "512M",
+      "merge_logs"    :   true,
+      "env":  {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name"  :   "stl-development",
+      "script"    :   "app.js",
+      "watch"       : true,
+      "exec_mode" :   "fork",
+      "instances" :   1,
+      "max_memory_restart"    :   "256M",
+      "merge_logs"    :   true,
+      "env":  {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
