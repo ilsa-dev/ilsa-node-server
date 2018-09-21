@@ -3,7 +3,7 @@ var connection = mysql.createConnection({
     host: 'localhost',
     port: '3306',
     user: 'root',
-    password: 'root',
+    password: 'r00t1234',
     database: 'primefaces'
 });
 
