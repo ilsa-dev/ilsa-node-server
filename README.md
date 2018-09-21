@@ -14,3 +14,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Tested Node Version
 v9.11.1# ilsa-node-server
+
+#How to run
+#### Open terminal and cd to ilsa-node-server folder:
+`cd ~/Documents/ilsa-node-server`
+
+#### Execute the following to start the server:
+`npm start`
